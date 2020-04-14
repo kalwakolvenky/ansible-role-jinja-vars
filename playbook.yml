@@ -1,5 +1,5 @@
 ---
   - name: checing the roles
-    hosts: web
+    hosts: web 
     roles:
-     - ansible-role-with-jinja-vars
+     - ansible-role-jinja-vars
