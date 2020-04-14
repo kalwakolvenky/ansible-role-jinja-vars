@@ -3,7 +3,7 @@
 - name: Run Apt Update
   shell: apt update
 - name: Clone Git Repo
-  shell: cd /tmp && git clone https://github.com/mavrick202/dockertest1.git
+  shell: rm -rf /tmp/dockertest1 && cd /tmp && git clone https://github.com/kalwakolvenky/dockertest1.git
   tags:
    - repo
 - name: Install Nginx Server
