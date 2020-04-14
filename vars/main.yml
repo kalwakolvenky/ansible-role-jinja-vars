@@ -1,5 +1,5 @@
 ---
-custom_heading: "Welcome To DevOps Batch 10 By Sreeharsha Veerapalli"
+custom_heading: "Welcome to ansible role with jinja"
 todays_date: "{{ ansible_facts['date_time']['date'] }}"
 host_name: "{{ ansible_facts['hostname'] }}"
 fqdn_name: "{{ ansible_facts['fqdn'] }}"
